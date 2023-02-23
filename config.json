@@ -1,1 +1,25 @@
 
+{
+    "http_api": {
+        "enabled": true,
+        "host": "0.0.0.0",
+        "port": 5000
+    },
+    "database": true,
+    "views": 1000,
+    "minimum": 85.0,
+    "maximum": 95.0,
+    "proxy": {
+        "category": "p",
+        "proxy_type": false,
+        "filename": "GoodProxy.txt",
+        "authentication": false,
+        "proxy_api": false,
+        "refresh": 0.0
+    },
+    "background": true,
+    "bandwidth": true,
+    "playback_speed": 3,
+    "max_threads": 15,
+    "min_threads": 15
+}
